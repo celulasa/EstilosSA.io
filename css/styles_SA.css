@@ -1,0 +1,97 @@
+html{
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    font-size: 100%;
+    overflow-wrap:anywhere;
+}
+
+/* ESTILOS PARA TÍTULOS */
+/* Herramientas */
+.container > h5{
+    font-weight: bold;
+    margin-left: -14px;
+    display: flex;
+    padding-bottom:5px;
+    padding-top:10px;
+    font-size:1.875rem;
+}
+/* Acordiones*/
+.container .h6, .container h6{
+    font-size:1.13rem;
+    padding-top:10px;
+    font-weight: 400;
+}
+.container .accordion h6{
+    padding-top: 0;
+}
+/* Recuadros de módulos */
+.title-theme h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* TEXTOS EN CUERPOS DE DISTINTAS HERRAMIENTAS */
+/* Diapositivas */
+.presentacionItem p:not([class]){
+    font-size:1.13rem !important;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 400;
+}
+.carousel-item > p{
+    font-size:1.13rem;
+    font-weight: 400;
+}
+/* General */
+p[style*="14px"], span[style*="14px"], div[class*="col-xs-7 col-md-8 px-3 pb-2"] p span, a.btn, p[style*="font-family: Arial,Helvetica,sans-serif;"], span[style*="font-family: Arial,Helvetica,sans-serif;"], section.container p, section.container a, figcaption, .lista li, .color3 p span[style*="14px"], .color4 p span[style*="14px"], .accordion .card-body span[style*="14px"], .carousel-item > p, .row.justify-content-center p span{
+    font-size:1.13rem;
+    font-weight: 400;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+/* ALTURA ENCABEZADO */
+body .presentacionItem {
+    height: auto;
+}
+@media screen and (min-width: 768px){
+     .contenedorCarrusel #carousel-recuadros{
+        min-height: inherit;
+    }
+}
+
+/* CUADROS VERDES DE ACTIVIDADES, FOROS Y EXÁMENES */
+.cuadros-evaluativos{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cuadros-evaluativos .titulo{
+    font-size: 1.875rem !important;
+    font-weight: bold;
+}
+.cuadros-evaluativos .cuerpo{
+    font-size:1.13rem;
+    font-weight: 400;
+}
+
+/* VIDEOS EMBEBIDOS RESPONSIVOS EN DISPOSITIVOS MÓVILES */
+@media only screen and (min-width : 992px) {
+    .embed-responsive1{
+        width:670px;
+        height:380px;
+    }
+}
+
+/* BOTÓN DE DOCUMENTO ANEXO */
+a.color2:hover{
+    background-color: #ffffff;
+}
+
+/* NAVBAR */
+.navbar-nav .nav-item .nav-link{
+    font-size: 14px !important;
+    font-weight: 700;
+}
+@media only screen and (max-width:991px){
+    .nav{
+        display:block; 
+    }
+}

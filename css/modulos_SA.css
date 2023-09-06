@@ -1,0 +1,45 @@
+/* html{
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    font-size: 100%;
+    overflow-wrap:anywhere;
+} */
+@media only screen and (min-width : 321px) {
+    .carousel-item{
+        padding:0 !important;
+    }
+    .itemGroupItem{
+        padding:30 !important;
+    }
+}
+/* @media only screen and (min-width : 992px) {
+    .embed-responsive1{
+        width:670px;
+        height:380px;
+    }
+}
+@media only screen and (max-width:991px){
+    .nav{
+        display:block; 
+    }
+}
+.container > h5{
+    font-weight: bold;
+    margin-left: -14px;
+    display: flex;
+    padding-bottom:5px;
+    padding-top:10px;
+    font-size:1.875rem 
+}
+.container .h6{
+    font-size:1.3rem;
+    padding-top:10px 
+}
+p[style*="14px"], span[style*="14px"], div[class*="col-xs-7 col-md-8 px-3 pb-2"] p span, a.btn, section.container p, section.container a, figcaption, .lista li, .color3 p span[style*="14px"], .color4 p span[style*="14px"], .accordion .card-body span[style*="14px"], .format-text, .carousel-item > p{
+    font-size:1.13rem;
+    font-family: Arial,Helvetica,sans-serif;
+}
+ .navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+} */
