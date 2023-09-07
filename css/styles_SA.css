@@ -95,3 +95,8 @@ a.color2:hover{
         display:block; 
     }
 }
+
+/* MODAL  */
+.modal-title{
+    font-weight: bold;
+}
